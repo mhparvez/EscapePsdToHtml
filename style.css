@@ -1,0 +1,373 @@
+/* Fonts */
+@font-face{
+    src: url(fonts/BrandonGrotesque-Medium.ttf);
+    font-family:BrandonGrotesque-Medium;
+}
+@font-face{
+    src: url(fonts/brandon-grotesque-light.otf);
+    font-family:brandon-grotesque-light;
+}
+@font-face{
+    src: url(fonts/BrandonGrotesque-Bold.ttf);
+    font-family:BrandonGrotesque-Bold;
+}
+/* Fonts end*/
+*{
+    margin:0;
+    padding:0;
+}
+/* header start */
+header{
+   background-color: transparent;
+}
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+}
+.logo img{
+    width:80%;
+}
+.icon{
+    float: left;
+}
+.menu{
+float: right;
+}
+.menu ul{}
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+}
+.menu ul li a{
+    font-family: BrandonGrotesque-Medium;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+/* header end */
+.banner{
+    background-image: url(img/banner.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+}
+.bntext{
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+.bntext h3{
+    margin-top: 100px;
+    font-family: brandon-grotesque-light;
+    font-weight: 300;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 25px;
+}
+.bntext h1{
+font-family:BrandonGrotesque-Bold;
+font-size: 66px;
+color: white;
+margin:0;
+margin-bottom:45px;
+}
+.bntext button{
+   padding:10px 55px;
+   background: transparent;
+   border:2px solid white ;
+}
+.bntext button a{
+    text-decoration: none;
+    font-family:BrandonGrotesque-Bold;
+    font-weight: 400;
+    font-size: 23px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 23px;
+    
+}
+.alltext{
+    margin-top: 80px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+.text{
+    width: 50%;
+    float: left;
+}
+h1{
+    font-family:BrandonGrotesque-Bold;
+    font-size: 60px;
+    margin: 0;
+}
+.light1{
+    font-family: brandon-grotesque-light;
+    font-weight: 300;
+    font-size: 60px;
+}
+p{
+    font-family:brandon-grotesque-light;
+    font-weight: 300;
+    font-size: 16px;
+    color: #777777;
+}
+.img1{
+    width: 40%;
+    float: right;
+    margin-top: 25px;
+}
+.identity{
+    overflow: hidden;
+    background-color: #fafafa;
+}
+.img2{
+    width: 35%;
+    float: left;
+    margin-right: 80px;
+    
+}
+.img2 img{
+    margin-top: 40px;
+    margin-bottom: 70px;
+   
+
+}
+.text2{
+    width: 50%;
+    overflow: hidden;
+    margin-top: 70px;
+    
+}
+.text2 h1{
+    margin-top: 10px;
+}
+h3{
+    font-family:BrandonGrotesque-Medium;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+/* Services section */
+.brand{
+    float: left;
+    width: 40%;
+    width: 43%;
+}
+.brandicon{
+    float: left;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.brandtext{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.web{
+    width: 40%;
+    overflow: hidden;
+    float: right;
+}
+.mhparvez{
+    margin-top:70px;
+    margin-bottom:70px;
+    overflow: hidden;
+}
+/* services section end */
+.bg_color{
+    background-color: #fafafa;
+    overflow: hidden;
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    overflow: hidden;
+    text-align: center;
+    overflow: hidden; 
+}
+.heading h1{
+    margin-top: 100px;
+}
+.heading p{
+  margin-bottom: 50px;
+}
+.review{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.icon1{
+    margin-left: 100px;
+    float: left;
+    width: 20%;
+    margin-right: 25px;
+    margin-bottom: 40px;
+}
+.icon1 img{
+    width: 95%;
+    margin-top: -3px;
+}
+.review1{
+    overflow: hidden;
+    width: 48%;
+    background-image: url(img/Escape.png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    padding-bottom: 45px;
+
+}
+.review1 p{
+margin-left: 90px;
+margin-bottom: 20px;
+margin-top: 30px;
+}
+.review1 img{
+    width:100%;
+}
+.p2 p{
+    color: #7690c5;
+}
+.textside{
+    float: left;
+    margin-left: 145px;
+    overflow: hidden;
+    width: 48%;
+    background-image: url(img/Escape2.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    padding-bottom: 45px;
+    margin-right: 25px;
+}
+.textside p{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.iconlast{
+    overflow: hidden;
+    width: 20%;
+}
+.iconlast img{
+    width: 100%;
+    margin-top: -7px;
+}
+.envato,.wordpress,.tuts,.mic{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+
+}
+.envato,.wordpress,.tuts,.mic img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.textawsome{
+    text-align: center;
+}
+.bg_color2{
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+.textawsome h1{
+margin-top: 100px;
+color: white;
+}
+.allicons{
+    margin: 0 40px;
+    width: 25%;
+    float: left;
+   text-align: center;
+}
+.firsticon h3{
+    color: white;
+    font-family:BrandonGrotesque-Bold;
+    font-size: 18px;
+}
+
+.firsticon p,.textawsome p{
+    color: white;
+}
+.textawsome p{
+margin-bottom: 80px;
+}
+.textinfo{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+.textinfo p{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    color: white;
+}
+/*all done*/
+.bg_color10{
+    overflow: hidden;
+    background-color:#7690c5;
+}
+
+ 
+.title p{
+    margin-bottom: 50px;
+}
+.socialinfo{
+    width: 50%;
+    float: left;
+
+}
+.phone,.twitter,.facebook,.google,.print{
+    width: 50%;
+    float: left;
+    margin-bottom: 35px;
+}
+.email{
+    overflow: hidden;
+    width: 50%;
+    margin-bottom: 35px;
+}
+.fa-mobile::before,.fa-envelope:before,.fa-twitter::before,.fa-facebook-f:before,.fa-google-plus-g:before,.fa-pinterest-square:before{
+    margin-right: 10px;
+}
+.contactinfo,.phone i{
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.contact_form{
+    width: 40%;
+    overflow: hidden;
+    float: right;
+}
+.contact_form input[type="text"],input[type="email"]{
+    padding: 10px 20px;
+    font-size: 20px;
+    /* width: 400px; */
+    outline: none;
+    border-radius: 5px;
+    width: 89%;
+    border: none;
+    outline: none;
+}
+.contact_form textarea{
+    padding: 10px 20px;
+    /* width: 402px; */
+    font-size: 20px;
+    height: 200px;
+    outline: none;
+    border-radius: 5px;
+    width: 89%;
+}
+.yourname{
+margin-top: 60px;
+}
+.yourname,.yourmail{
+    margin-bottom: 15px;
+}
